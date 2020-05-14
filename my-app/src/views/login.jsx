@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-//import { Link } from 'react-router-dom';
 import Admin from '../img/image/administrador.png';
 import Logo from '../img/logo/combined-shape.png';
 
-//import '../css/App.css';
 import '../css/login.css';
 import axios from 'axios';
 
@@ -22,17 +20,17 @@ export const Login = () => {
 	);
 
 	const handleChange = (event) => {
-			setLogin({...login, [event.target.name]: event.target.value})
+		setLogin({...login, [event.target.name]: event.target.value})
 	}
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		axios.post('http://futi-dev-lb-2118413634.us-west-2.elb.amazonaws.com/futi/v1.0/login/internal', login)
 			.then(function (response) {
-					console.log(response)
+				console.log(response)
 			})
 			.catch(function (error) {
-					console.log(error)
+				console.log(error)
 			})
 	}
 	
@@ -42,13 +40,10 @@ export const Login = () => {
 				<figure>
 					<img src={Logo} alt="logo de la web"/>
 				</figure>
-				
 				<p className="welcome"> ¡Bienvenido!</p>
 				<p className="welcome-description">Ingresa a tu cuenta</p>
-				
 				<input className="inputs" type="email" name="correo" id="email" placeholder="Correo" defaultValue={login.email} onChange={handleChange}/>
 				<div className="input-pass">
-					{/*fa fa-eye-slash*/}
 					<i
 						className={icon}
 						aria-hidden="true"

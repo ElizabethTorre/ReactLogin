@@ -1,16 +1,4 @@
-
-/*verde #00c44d*/
-/*input #f5f6fa*/
-
-/*------------------ VIEW LOGIN -----------------------------*/
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
-.centerlogin{
-	min-height: 100vh;
-}
-.center {
-	text-align: center;
-	width: 80%;
-}
 .flex-form {
 	display: flex;
 	flex-direction: column;
@@ -18,10 +6,6 @@
 	align-items: center;
 	min-height: 100vh;
 }
-/*.welcome {
-	color: grey;
-	
-}*/
 .welcome, .welcome-description {
 	width: 265px;
 	color: grey;
@@ -35,10 +19,6 @@
 .welcome-description {
 	margin: .5rem 0;
 }
-.logo {
-	display: none;
-}
-
 .inputs {
 	width: 265px;
 	margin: 0.75rem 0 0;
@@ -63,26 +43,12 @@
 	border-radius: 5px;
 }
 .inputs, .btn-login {
-
 	padding: 1rem 0.75rem;
-	
 	outline: none;
 }
 .btn-login:hover {
 	background: #3f4047;
 	color: #00c44d;
-	
-}
-/*.facebook, .google {
-	width: 40px;
-}
-.btn-fb-google {
-	margin: 10px 0;
-}*/
-.bold {
-	font-weight: bold;
-	color:#00c44d;
-	text-decoration: none;
 }
 .lost {
 	color: #7141e6;
@@ -97,7 +63,7 @@
 	font-size: 11px;
 }
 
-main figure .logo-admin {
+main .figure-admin {
 	display: none;
 }
 .flex-form figure {
@@ -120,16 +86,11 @@ main figure .logo-admin {
 
 @media screen and (min-width:764px) {
 	* {
-			font-size: 15px;
+		font-size: 15px;
 	}
 	main {
 		display: flex;
-    /*justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;*/
 	}
-	/* VIEW LOGIN */
 	main .figure-admin {
 		min-height: 100vh;
     display: flex;
@@ -140,9 +101,8 @@ main figure .logo-admin {
 		background: #f5f6fa;
 		margin: 0;
 	}
-	main figure .logo-admin {
+	main .figure-admin .logo-admin {
 		width: -webkit-fill-available;
-		display: block;
 	}
 	.flex-form figure {
 		width: 310px;
@@ -150,39 +110,16 @@ main figure .logo-admin {
 	.btn-login {
 		width: 310px;
 	}
-	
-	.logo {
-			display: block;
-	}
-	.logo {
-			width: 40%;
-	}
 	.flex-form {
-			width: 50%;
+		width: 50%;
 	}
-	/*.welcome {
-			display: none;
-	}*/
-	.center {
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
-			width: 100%;
-			min-height: 100vh;
-	} 
 	.welcome, .welcome-description {
-			width: 310px;
-			/*margin: 10px 0;
-			color: grey;*/
+		width: 310px;
 	}
 	.inputs {
-			width: 310px;
-			/*margin: 10px 0;
-			padding: 1rem;*/
-
+		width: 310px;
 	}
 	.text-bottom {
 		width: 310px;
 	}
-
 }
