@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactLogin/static/css/main.0b667d86.chunk.css",
+    "main.js": "/ReactLogin/static/js/main.d9c2fb31.chunk.js",
+    "main.js.map": "/ReactLogin/static/js/main.d9c2fb31.chunk.js.map",
+    "runtime-main.js": "/ReactLogin/static/js/runtime-main.256d73e4.js",
+    "runtime-main.js.map": "/ReactLogin/static/js/runtime-main.256d73e4.js.map",
+    "static/js/2.5f7549ad.chunk.js": "/ReactLogin/static/js/2.5f7549ad.chunk.js",
+    "static/js/2.5f7549ad.chunk.js.map": "/ReactLogin/static/js/2.5f7549ad.chunk.js.map",
+    "index.html": "/ReactLogin/index.html",
+    "precache-manifest.5df6fa4be5aebd3f86a6487215d7f807.js": "/ReactLogin/precache-manifest.5df6fa4be5aebd3f86a6487215d7f807.js",
+    "service-worker.js": "/ReactLogin/service-worker.js",
+    "static/css/main.0b667d86.chunk.css.map": "/ReactLogin/static/css/main.0b667d86.chunk.css.map",
+    "static/js/2.5f7549ad.chunk.js.LICENSE.txt": "/ReactLogin/static/js/2.5f7549ad.chunk.js.LICENSE.txt",
+    "static/media/administrador.png": "/ReactLogin/static/media/administrador.4d28fcf2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.256d73e4.js",
+    "static/js/2.5f7549ad.chunk.js",
+    "static/css/main.0b667d86.chunk.css",
+    "static/js/main.d9c2fb31.chunk.js"
+  ]
+}
