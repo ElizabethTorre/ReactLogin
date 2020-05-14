@@ -53,7 +53,7 @@ export const Login = () => {
 					/>
 					<input className="inputs" type={state} name="contrasena" id="password"  placeholder="Contraseña" defaultValue={login.password} onChange={handleChange}/>
 				</div>
-				<button className= "btn-login" name="button" type="submit" id="login" onSubmit={handleSubmit}>Ingresar</button>
+				<button className= "btn-login" name="button" type="submit" id="login" onClick={(e)=> handleSubmit(e)}>Ingresar</button>
 				<section className="text-bottom">
 					<div>
 						<input type="checkbox" id="recordar" name="recordar" />
