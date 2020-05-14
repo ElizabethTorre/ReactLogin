@@ -21,9 +21,9 @@ export const Login = () => {
 		}
 	);
 
-	//const handleChange = (event) => {
-	//		setLogin({...login, [event.target.name]: event.target.value})
-	//}
+	const handleChange = (event) => {
+			setLogin({...login, [event.target.name]: event.target.value})
+	}
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
@@ -46,7 +46,7 @@ export const Login = () => {
 				<p className="welcome"> ¡Bienvenido!</p>
 				<p className="welcome-description">Ingresa a tu cuenta</p>
 				
-				<input className="inputs" type="email" name="correo" id="email" placeholder="Correo" defaultValue={login.email}/>
+				<input className="inputs" type="email" name="correo" id="email" placeholder="Correo" defaultValue={login.email} onChange={handleChange}/>
 				<div className="input-pass">
 					{/*fa fa-eye-slash*/}
 					<i
@@ -56,7 +56,7 @@ export const Login = () => {
 							state === 'text' ? (setState('password')? setIcon('fa fa-eye-slash'):setIcon('fa fa-eye')) : (setState('text')? setIcon('fa fa-eye'):setIcon('fa fa-eye-slash'));
 						}}
 					/>
-					<input className="inputs" type={state} name="contrasena" id="password"  placeholder="Contraseña" defaultValue={login.password}/>
+					<input className="inputs" type={state} name="contrasena" id="password"  placeholder="Contraseña" defaultValue={login.password} onChange={handleChange}/>
 				</div>
 				<button className= "btn-login" name="button" type="submit" id="login" onSubmit={handleSubmit}>Ingresar</button>
 				<section className="text-bottom">
