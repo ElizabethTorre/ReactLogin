@@ -1,0 +1,188 @@
+
+/*verde #00c44d*/
+/*input #f5f6fa*/
+
+/*------------------ VIEW LOGIN -----------------------------*/
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
+.centerlogin{
+	min-height: 100vh;
+}
+.center {
+	text-align: center;
+	width: 80%;
+}
+.flex-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+/*.welcome {
+	color: grey;
+	
+}*/
+.welcome, .welcome-description {
+	width: 265px;
+	color: grey;
+}
+.welcome {
+	font-size: 25px;
+	color: #3f4047;
+	font-weight: 700;
+	margin: 1.5rem 0 0;
+}
+.welcome-description {
+	margin: .5rem 0;
+}
+.logo {
+	display: none;
+}
+
+.inputs {
+	width: 265px;
+	margin: 0.75rem 0 0;
+	border: 0px solid;
+	background-color: #f5f6fa;
+	outline: none;
+	box-sizing: border-box;
+	color: grey;
+	font-size: 10px;
+	border-radius: 3px;
+}
+.btn-login {
+	width: 265px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	background: #00c44d;
+	color: white;
+	border-style: none;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 11px;
+	border-radius: 5px;
+}
+.inputs, .btn-login {
+
+	padding: 1rem 0.75rem;
+	
+	outline: none;
+}
+.btn-login:hover {
+	background: #3f4047;
+	color: #00c44d;
+	
+}
+/*.facebook, .google {
+	width: 40px;
+}
+.btn-fb-google {
+	margin: 10px 0;
+}*/
+.bold {
+	font-weight: bold;
+	color:#00c44d;
+	text-decoration: none;
+}
+.lost {
+	color: #7141e6;
+	font-size: 11px;
+}
+.text-bottom div {
+	display: flex;
+	align-items: center;
+}
+.text-bottom div label {
+	color: grey;
+	font-size: 11px;
+}
+
+main figure .logo-admin {
+	display: none;
+}
+.flex-form figure {
+	width: 265px;
+}
+.text-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 265px;
+}
+.input-pass {
+	position: relative;
+}
+.input-pass i {
+	position: absolute;
+  bottom: 0.9rem;
+  right: 0.75rem;
+}
+
+@media screen and (min-width:764px) {
+	* {
+			font-size: 15px;
+	}
+	main {
+		display: flex;
+    /*justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;*/
+	}
+	/* VIEW LOGIN */
+	main .figure-admin {
+		min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 50%;
+		background: #f5f6fa;
+		margin: 0;
+	}
+	main figure .logo-admin {
+		width: -webkit-fill-available;
+		display: block;
+	}
+	.flex-form figure {
+		width: 310px;
+	}
+	.btn-login {
+		width: 310px;
+	}
+	
+	.logo {
+			display: block;
+	}
+	.logo {
+			width: 40%;
+	}
+	.flex-form {
+			width: 50%;
+	}
+	/*.welcome {
+			display: none;
+	}*/
+	.center {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			min-height: 100vh;
+	} 
+	.welcome, .welcome-description {
+			width: 310px;
+			/*margin: 10px 0;
+			color: grey;*/
+	}
+	.inputs {
+			width: 310px;
+			/*margin: 10px 0;
+			padding: 1rem;*/
+
+	}
+	.text-bottom {
+		width: 310px;
+	}
+
+}

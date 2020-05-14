@@ -1,0 +1,11 @@
+http://futi-dev-lb-2118413634.us-west-2.elb.amazonaws.com/futi/v1.0/login/internal
+
+request:
+
+{
+	"email": "jpacheco@muy3o2c.com",
+	"password": "password",
+	"grant_type": "password",
+	"client_id": "futi",
+	"client_secret": "winmorefuti"
+}
