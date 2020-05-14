@@ -25,7 +25,7 @@ export const Login = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		axios.post('http://futi-dev-lb-2118413634.us-west-2.elb.amazonaws.com/futi/v1.0/login/internal', login)
+		axios.post('https://futi-dev-lb-2118413634.us-west-2.elb.amazonaws.com/futi/v1.0/login/internal', login)
 			.then(function (response) {
 				console.log(response)
 			})
